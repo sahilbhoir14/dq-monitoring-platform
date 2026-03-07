@@ -1,0 +1,9 @@
+{
+  "dataset": "synthetic_dataset",
+  "rules": [
+    { "rule": "no_nulls",      "columns": ["Category", "Price", "Rating", "Stock", "Discount"] },
+    { "rule": "value_range",   "column":  "Price",    "min": 0, "max": 100000 },
+    { "rule": "value_range",   "column":  "Discount", "min": 0, "max": 100    },
+    { "rule": "value_range",   "column":  "Rating",   "min": 0, "max": 5      }
+  ]
+}

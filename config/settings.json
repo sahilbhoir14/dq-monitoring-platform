@@ -1,0 +1,8 @@
+{
+  "dataset_path":     "data/raw/retail_products.csv",
+  "reports_path":     "reports/",
+  "logs_path":        "data/logs/dq_score_history.csv",
+  "dq_threshold":     80,
+  "schedule_time":    "08:00",
+  "alert_on_failure": true
+}
